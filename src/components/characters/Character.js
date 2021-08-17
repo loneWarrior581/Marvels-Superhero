@@ -3,14 +3,14 @@ import bg from '../../img/bg1.jpg'
 function Character({ character }) {
     return (
         <div className="card">
-            <div className="card-inner">
-                <div className="card-front">
-                    <img src={character.thumbnail.path + '.jpg'} atl='some' />
-                </div>
-                <h3>Name  : {character.name}</h3>
+            <img src={character.thumbnail.path + '.jpg'} atl='some' />
+            <div className="border"></div>
+            <div className="container">
+                <h4><b>{character.name}</b></h4>
+                <p>Marvel Super Hero</p>
             </div>
 
-        </div>
+        </div >
     )
 }
 
