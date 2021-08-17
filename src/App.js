@@ -10,7 +10,6 @@ const limit = 40;
 
 // PUBLIC KEY: 4d4201ad31d7bfaf99cc7ab62764e7f7
 // PRIVATE KEY : 396deaa8a67455411890d9440082926a2cecd305
-// const base_url = "https://gateway.marvel.com:443/v1/public/characters?nameStartsWith=thorlimit=30&apikey=4d4201ad31d7bfaf99cc7ab62764e7f7";
 function App() {
 
   const [items, setItems] = useState([]);
@@ -46,6 +45,7 @@ function App() {
       <Header />
       <Search getQuery={(q) => setQuery(q)} />
       <CharacterGrid isLoading={isLoading} superHeros={items} />
+      <h4 className="footer">Made with 💛 by Uttkarsh.</h4>
     </div>
   );
 }

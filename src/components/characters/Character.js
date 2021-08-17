@@ -1,9 +1,8 @@
 import React from 'react'
-import bg from '../../img/bg1.jpg'
 function Character({ character }) {
     return (
         <div className="card">
-            <img src={character.thumbnail.path + '.jpg'} atl='some' />
+            <img src={character.thumbnail.path + '.jpg'} alt="marvel action character" />
             <div className="border"></div>
             <div className="container">
                 <h4><b>{character.name}</b></h4>

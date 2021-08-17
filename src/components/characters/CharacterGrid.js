@@ -1,9 +1,11 @@
 import React from 'react'
 import Character from './Character'
-
+import gif from '../../img/spinner.gif'
 function CharacterGrid({ isLoading, superHeros }) {
     return isLoading ? (
-        <h1>Loading ......</h1>
+        <div className="spinner">
+            <img src={gif} alt="Loader" />
+        </div>
     ) : (
         <div className="cards">
             {superHeros.map((hero) => (

@@ -3,7 +3,7 @@ import logo from '../img/logo.png'
 function Header() {
     return (
         <header className="header-logo">
-            <img src={logo} alt="marvel studios" />
+            <img src={logo} alt="marvel studios logo" />
         </header>
     )
 }
