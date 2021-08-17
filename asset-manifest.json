@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Marvels-Superhero/static/css/main.a892623a.chunk.css",
+    "main.js": "/Marvels-Superhero/static/js/main.a7088734.chunk.js",
+    "main.js.map": "/Marvels-Superhero/static/js/main.a7088734.chunk.js.map",
+    "runtime-main.js": "/Marvels-Superhero/static/js/runtime-main.16db8f38.js",
+    "runtime-main.js.map": "/Marvels-Superhero/static/js/runtime-main.16db8f38.js.map",
+    "static/js/2.cc2a57cd.chunk.js": "/Marvels-Superhero/static/js/2.cc2a57cd.chunk.js",
+    "static/js/2.cc2a57cd.chunk.js.map": "/Marvels-Superhero/static/js/2.cc2a57cd.chunk.js.map",
+    "index.html": "/Marvels-Superhero/index.html",
+    "static/css/main.a892623a.chunk.css.map": "/Marvels-Superhero/static/css/main.a892623a.chunk.css.map",
+    "static/js/2.cc2a57cd.chunk.js.LICENSE.txt": "/Marvels-Superhero/static/js/2.cc2a57cd.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/Marvels-Superhero/static/media/bg2.c15b08e9.jpg",
+    "static/media/logo.131fb717.png": "/Marvels-Superhero/static/media/logo.131fb717.png",
+    "static/media/spinner.1f17d896.gif": "/Marvels-Superhero/static/media/spinner.1f17d896.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.16db8f38.js",
+    "static/js/2.cc2a57cd.chunk.js",
+    "static/css/main.a892623a.chunk.css",
+    "static/js/main.a7088734.chunk.js"
+  ]
+}
