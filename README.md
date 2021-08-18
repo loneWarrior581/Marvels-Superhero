@@ -6,4 +6,5 @@
 
 1. Find the superhero with initials of character name 😍.
 2. Optimised for SEO preformance.
-3. Used minified images for the purpose favicon for the seo and performance purpose.
+3. Used minified images/logos/gifs for the purpose favicon for the seo and performance purpose.
+4. Written unit test for eaxh component using `react-testing-library`.
