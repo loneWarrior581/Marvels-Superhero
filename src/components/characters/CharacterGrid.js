@@ -1,5 +1,5 @@
 import React from 'react'
-import Character from './Character'
+import Character from '../Character/Character'
 import gif from '../../img/spinner.gif'
 function CharacterGrid({ isLoading, superHeros }) {
     return isLoading ? (

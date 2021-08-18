@@ -9,6 +9,7 @@ function Search({ getQuery }) {
     return (
         <div className="search">
             <input
+                data-testid="search"
                 type="text"
                 placeholder="Search Your super hero here ...."
                 className="form-control"

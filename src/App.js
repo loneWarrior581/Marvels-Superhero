@@ -2,8 +2,8 @@ import axios from "axios";
 import React, { useState, useEffect } from "react";
 import './App.css';
 import CharacterGrid from './components/characters/CharacterGrid';
-import Header from './components/Header'
-import Search from './components/Search';
+import Header from './components/Header/Header'
+import Search from './components/Search/Search';
 const api_key = "4d4201ad31d7bfaf99cc7ab62764e7f7";
 const hash = "126aa0f2fd94045e4d889a4aaca3befa";
 const limit = 40;
